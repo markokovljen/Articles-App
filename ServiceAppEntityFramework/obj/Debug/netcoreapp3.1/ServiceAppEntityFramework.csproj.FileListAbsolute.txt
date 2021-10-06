@@ -1,0 +1,16 @@
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\bin\Debug\netcoreapp3.1\ServiceAppEntityFramework.deps.json
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\bin\Debug\netcoreapp3.1\ServiceAppEntityFramework.runtimeconfig.json
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\bin\Debug\netcoreapp3.1\ServiceAppEntityFramework.runtimeconfig.dev.json
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\bin\Debug\netcoreapp3.1\ServiceAppEntityFramework.dll
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\bin\Debug\netcoreapp3.1\ServiceAppEntityFramework.pdb
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\obj\Debug\netcoreapp3.1\ServiceAppEntityFramework.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\obj\Debug\netcoreapp3.1\ServiceAppEntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\obj\Debug\netcoreapp3.1\ServiceAppEntityFramework.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\obj\Debug\netcoreapp3.1\ServiceAppEntityFramework.AssemblyInfo.cs
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\obj\Debug\netcoreapp3.1\ServiceAppEntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\obj\Debug\netcoreapp3.1\ServiceAppEntityFramework.csproj.CopyComplete
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\obj\Debug\netcoreapp3.1\ServiceAppEntityFramework.dll
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\obj\Debug\netcoreapp3.1\ServiceAppEntityFramework.pdb
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\ServiceAppEntityFramework\obj\Debug\netcoreapp3.1\ServiceAppEntityFramework.genruntimeconfig.cache

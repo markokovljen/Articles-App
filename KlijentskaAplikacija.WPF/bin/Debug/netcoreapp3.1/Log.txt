@@ -1,0 +1,1 @@
+2021-09-15 22:47:09,653 INFO [KlijentskaAplikacija.WPF.ViewModels.HomeViewModel]: aaa

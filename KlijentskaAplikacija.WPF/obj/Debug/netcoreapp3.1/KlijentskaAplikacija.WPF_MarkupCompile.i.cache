@@ -1,0 +1,20 @@
+﻿KlijentskaAplikacija.WPF
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\KlijentskaAplikacija.WPF\obj\Debug\netcoreapp3.1\
+KlijentskaAplikacija.WPF
+none
+false
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+C:\Users\hp\Desktop\RVA PROJEKAT\RVAProjekat\KlijentskaAplikacija.WPF\App.xaml
+81473392847
+1-349067774
+481968756072
+213219986409
+Controls\NavigationBar.xaml;MainWindow.xaml;Styles\Common.xaml;Styles\NavigationBar.xaml;Views\AddUserView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\ModifyProfileView.xaml;
+
+True
+
