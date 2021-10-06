@@ -256,3 +256,27 @@
 2021-10-06 16:48:04,209 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
 2021-10-06 16:48:09,595 [1] INFO KlijentskaAplikacija.WPF.Commands.LogOutCommand - User has logged out!
 2021-10-06 16:48:09,595 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 19:42:41,652 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 19:42:44,315 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 19:43:04,733 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 19:43:07,823 [1] WARN KlijentskaAplikacija.WPF.Commands.UpdateArticleCommand - You need to select item first!
+2021-10-06 19:43:11,914 [1] WARN KlijentskaAplikacija.WPF.Commands.UpdateArticleCommand - You need to make some changes to update!
+2021-10-06 19:43:29,129 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 19:43:30,490 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 19:43:34,622 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 19:45:20,269 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 19:45:21,566 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 19:45:26,126 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 19:45:30,200 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateArticleCommand - Article updated!
+2021-10-06 19:45:35,332 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 19:45:35,740 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 19:45:36,003 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 19:45:36,348 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 19:45:41,493 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateArticleCommand - Article updated!
+2021-10-06 19:45:42,883 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 19:45:43,380 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 19:45:46,461 [1] INFO KlijentskaAplikacija.WPF.Commands.LogOutCommand - User has logged out!
+2021-10-06 19:45:46,461 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 19:45:49,140 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 19:45:54,780 [1] INFO KlijentskaAplikacija.WPF.Commands.LogOutCommand - User has logged out!
+2021-10-06 19:45:54,780 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model

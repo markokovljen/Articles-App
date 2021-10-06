@@ -59,7 +59,7 @@ namespace KlijentskaAplikacija.WPF.Commands
                 else if(result== UpdateResult.Success)
                 {
 
-                    if (homeViewModel.Articles.Count != 0 && homeViewModel.History[homeViewModel.History.Count - 1] is UpdateArticleCommand)
+                    if (homeViewModel.History.Count!=0 && homeViewModel.History[homeViewModel.History.Count - 1] is UpdateArticleCommand)
                     {
                         homeViewModel.History.RemoveAt(homeViewModel.History.Count - 1);
                     }
