@@ -12,16 +12,23 @@ namespace Common.Services.ActionServices
         private readonly IUserJournalistService<User> userJournalistService;
         private readonly IHashText hashText;
 
-        public AddUserService(IUserJournalistService<User> userJournalistService , IHashText hashText)
+        public AddUserService(IUserJournalistService<User> userJournalistService, IHashText hashText)
         {
             this.userJournalistService = userJournalistService;
             this.hashText = hashText;
         }
 
-        public async Task<RegistrationResult> AddUser(string username, string password, string confirmPassword, string firstName, string lastName,bool isAdministrator)
+        public async Task<RegistrationResult> AddUser(string username, string password, string confirmPassword, string firstName, string lastName, bool isAdministrator)
         {
 
             RegistrationResult result = RegistrationResult.Succes;
+
+            if (username == null || password == null || confirmPassword == null || firstName == null || lastName == null ||
+              username == "" || password == "" || confirmPassword == "" || firstName == "" || lastName == "")
+            {
+               return RegistrationResult.Blank;
+            }
+
 
             if (!password.Equals(confirmPassword))
             {

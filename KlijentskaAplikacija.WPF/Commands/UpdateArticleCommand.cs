@@ -16,15 +16,18 @@ namespace KlijentskaAplikacija.WPF.Commands
         private readonly IOperationsService operationsService;        
         private readonly HomeViewModel homeViewModel;
         private readonly IArticleService articleService;
+        private readonly RefreshDisplayCommand refreshDisplayCommand;
         private Article tempArticleOldValue;
         private Article tempArticleNewValue;
 
         private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-        public UpdateArticleCommand(IOperationsService operationsService, HomeViewModel homeViewModel, IArticleService articleService)
+        public UpdateArticleCommand(IOperationsService operationsService, HomeViewModel homeViewModel, IArticleService articleService,
+            RefreshDisplayCommand refreshDisplayCommand)
         {
             this.operationsService = operationsService;
             this.homeViewModel = homeViewModel;
             this.articleService = articleService;
+            this.refreshDisplayCommand = refreshDisplayCommand;
 
             log4net.Config.XmlConfigurator.Configure();
 
@@ -47,25 +50,30 @@ namespace KlijentskaAplikacija.WPF.Commands
                 tempArticleOldValue=await articleService.Get(homeViewModel.SelectedArticle.Id);
                 tempArticleNewValue = homeViewModel.SelectedArticle;
 
-                bool success = await operationsService.UpdateArticle(homeViewModel.SelectedArticle.Id, homeViewModel.SelectedArticle);
-                if (!success)
+                UpdateResult result = await operationsService.UpdateArticle(homeViewModel.SelectedArticle.Id, homeViewModel.SelectedArticle);
+                if (result== UpdateResult.NotModified)
                 {
                     homeViewModel.Warning = "You need to make some changes to update!";
                     log.Warn("You need to make some changes to update!");
                 }
-                else
+                else if(result== UpdateResult.Success)
                 {
 
-                    //if(homeViewModel.Articles.Count!=0 && homeViewModel.History[homeViewModel.History.Count-1] is UpdateArticleCommand)
-                    //{
-                    //    homeViewModel.History.RemoveAt(homeViewModel.History.Count - 1);
-                    //}
+                    if (homeViewModel.Articles.Count != 0 && homeViewModel.History[homeViewModel.History.Count - 1] is UpdateArticleCommand)
+                    {
+                        homeViewModel.History.RemoveAt(homeViewModel.History.Count - 1);
+                    }
 
                     log.Info("Article updated!");
                     homeViewModel.Warning = string.Empty;
 
                     homeViewModel.SetCommand(this);
                     
+                }
+                else
+                {
+                    refreshDisplayCommand.Execute(null);
+                    log.Warn("Error!");
                 }
             }
             else

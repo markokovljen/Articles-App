@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace Common.Services.ActionServices
 {
+    public enum UpdateResult
+    {
+        Success,
+        Error,
+        NotModified
+
+    }
+
     public class OperationsService : IOperationsService
     {
         private readonly IArticleService articleService;
-
-
         public OperationsService(IArticleService articleService)
         {
             this.articleService = articleService;
@@ -43,6 +49,10 @@ namespace Common.Services.ActionServices
                 try
                 {
                     Article temp = await articleService.GetByTitle(title);
+                    if (temp == null)
+                    {
+                        throw new NullReferenceException();
+                    }
                     await articleService.Delete(temp.Id);
                 }
                 catch (Exception)
@@ -74,21 +84,26 @@ namespace Common.Services.ActionServices
             await articleService.UnDuplicate(articles);
         }
 
-        public async Task<bool> UpdateArticle(int id, Article article)
+        public async Task<UpdateResult> UpdateArticle(int id, Article article)
         {
     
             Article temp = await articleService.Get(id);
+
+            if (temp == null)
+            {
+                return UpdateResult.Error;
+            }
 
             if (temp.Content.Equals(article.Content) && temp.Title.Equals(article.Title) && 
                 temp.Journalist.FirstName.Equals(article.Journalist.FirstName) && 
                 temp.Journalist.LastName.Equals(article.Journalist.LastName))
             {
-                return false;
+                return UpdateResult.NotModified;
             }
 
             await articleService.Update(id, article);
 
-            return true;
+             return UpdateResult.Success;
         }
     }
 }

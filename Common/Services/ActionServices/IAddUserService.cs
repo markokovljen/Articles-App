@@ -9,7 +9,8 @@ namespace Common.Services.ActionServices
     {
         Succes,
         PasswordDoNotMatch,
-        UsernameAlreadyExists
+        UsernameAlreadyExists,
+        Blank
     }
     public interface IAddUserService 
     {

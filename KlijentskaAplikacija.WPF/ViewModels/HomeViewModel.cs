@@ -221,7 +221,7 @@ namespace KlijentskaAplikacija.WPF.ViewModels
             //new Action(async () => await LoadArticles(articleService))(); -> ne blokira thread , tacnije nece sacekati da ucita artikle
 
             AddArticleCommand = new AddArticleCommand(operationsService, this);
-            UpdateArticleCommand = new UpdateArticleCommand(operationsService, this,articleService);
+            UpdateArticleCommand = new UpdateArticleCommand(operationsService, this,articleService,new RefreshDisplayCommand(operationsService, this));
             DeleteArticleCommand = new DeleteArticleCommand(operationsService, this);
             DuplicateDataCommand = new DuplicateDataCommand(operationsService,this);
             SearchCommand = new SearchCommand(this, articleService);

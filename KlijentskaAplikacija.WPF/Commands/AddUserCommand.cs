@@ -27,9 +27,16 @@ namespace KlijentskaAplikacija.WPF.Commands
 
         public override async void Execute(object parameter)
         {
+            
+
             RegistrationResult result= await addUserService.AddUser(addUserViewModel.Username, addUserViewModel.Password,
                 addUserViewModel.ConfirmPassword, addUserViewModel.FirstName, addUserViewModel.LastName, addUserViewModel.IsAdministrator);
-            if (result == RegistrationResult.Succes)
+            if (result == RegistrationResult.Blank)
+            {
+                addUserViewModel.Warning = "You can not leave a field blank!";
+                log.Warn("You can not leave a field blank!");
+            }
+            else if (result == RegistrationResult.Succes)
             {
                 addUserViewModel.Warning = string.Empty;
                 log.Warn("User added to Database!");

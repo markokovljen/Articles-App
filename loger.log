@@ -126,3 +126,133 @@
 2021-10-06 13:05:13,275 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
 2021-10-06 13:05:17,290 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
 2021-10-06 13:08:19,841 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 16:09:47,880 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 16:09:50,685 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:10:04,748 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 16:10:11,601 [1] WARN KlijentskaAplikacija.WPF.Commands.AddArticleCommand - You can not leave a field blank!
+2021-10-06 16:10:12,623 [1] WARN KlijentskaAplikacija.WPF.Commands.UpdateArticleCommand - You need to select item first!
+2021-10-06 16:10:13,368 [1] WARN KlijentskaAplikacija.WPF.Commands.DeleteArticleCommand - You need to select item first!
+2021-10-06 16:10:16,045 [1] WARN KlijentskaAplikacija.WPF.Commands.DeleteArticleCommand - You need to select item first!
+2021-10-06 16:10:16,452 [1] WARN KlijentskaAplikacija.WPF.Commands.UpdateArticleCommand - You need to select item first!
+2021-10-06 16:10:17,987 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:10:22,107 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:10:22,851 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:10:23,291 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:10:32,300 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:10:33,139 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:10:33,586 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:10:34,083 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:10:37,595 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:12:00,827 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 16:12:03,463 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:12:07,468 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 16:12:10,263 [1] WARN KlijentskaAplikacija.WPF.Commands.AddArticleCommand - You can not leave a field blank!
+2021-10-06 16:12:11,343 [1] WARN KlijentskaAplikacija.WPF.Commands.UpdateArticleCommand - You need to select item first!
+2021-10-06 16:12:12,111 [1] WARN KlijentskaAplikacija.WPF.Commands.DeleteArticleCommand - You need to select item first!
+2021-10-06 16:12:13,209 [1] INFO KlijentskaAplikacija.WPF.Commands.DuplicateDataCommand - Database duplicated!
+2021-10-06 16:12:15,528 [1] INFO KlijentskaAplikacija.WPF.Commands.DuplicateDataCommand - Database Unduplicated!
+2021-10-06 16:12:19,571 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:19:12,731 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 16:19:15,048 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:19:26,822 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 16:19:30,370 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:20:15,073 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 16:20:18,654 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:20:23,792 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 16:20:26,184 [1] WARN KlijentskaAplikacija.WPF.Commands.AddArticleCommand - You can not leave a field blank!
+2021-10-06 16:20:27,686 [1] WARN KlijentskaAplikacija.WPF.Commands.DeleteArticleCommand - You need to select item first!
+2021-10-06 16:20:28,826 [1] INFO KlijentskaAplikacija.WPF.Commands.DuplicateDataCommand - Database duplicated!
+2021-10-06 16:20:31,082 [1] INFO KlijentskaAplikacija.WPF.Commands.DuplicateDataCommand - Database Unduplicated!
+2021-10-06 16:20:36,730 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:20:39,195 [1] WARN KlijentskaAplikacija.WPF.Commands.AddUserCommand - You can not leave a field blank!
+2021-10-06 16:20:44,132 [1] WARN KlijentskaAplikacija.WPF.Commands.AddUserCommand - You can not leave a field blank!
+2021-10-06 16:20:49,771 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:20:53,758 [1] WARN KlijentskaAplikacija.WPF.Commands.ModifyProfileCommand - You can not leave a field blank!
+2021-10-06 16:20:55,387 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:20:55,666 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:20:57,883 [1] INFO KlijentskaAplikacija.WPF.Commands.ModifyProfileCommand - Profile modifyed!
+2021-10-06 16:20:59,226 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:20:59,523 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:21:03,269 [1] INFO KlijentskaAplikacija.WPF.Commands.ModifyProfileCommand - Profile modifyed!
+2021-10-06 16:21:04,874 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:21:05,363 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:21:06,115 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:21:59,938 [1] INFO KlijentskaAplikacija.WPF.Commands.ModifyProfileCommand - Profile modifyed!
+2021-10-06 16:22:05,458 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:22:05,931 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:22:06,354 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:22:56,064 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 16:22:58,430 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:23:02,669 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 16:23:07,590 [1] WARN KlijentskaAplikacija.WPF.Commands.AddArticleCommand - You can not leave a field blank!
+2021-10-06 16:23:08,566 [1] WARN KlijentskaAplikacija.WPF.Commands.UpdateArticleCommand - You need to select item first!
+2021-10-06 16:23:08,957 [1] WARN KlijentskaAplikacija.WPF.Commands.DeleteArticleCommand - You need to select item first!
+2021-10-06 16:23:11,114 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:23:15,836 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:23:21,556 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:23:22,011 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:23:26,467 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:23:32,842 [1] INFO KlijentskaAplikacija.WPF.Commands.RefreshDisplayCommand - UI refresed
+2021-10-06 16:24:20,725 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 16:24:22,818 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:24:50,942 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 16:24:59,906 [1] INFO KlijentskaAplikacija.WPF.Commands.AddArticleCommand - New article added to UI and Database
+2021-10-06 16:25:12,865 [1] INFO KlijentskaAplikacija.WPF.Commands.DeleteArticleCommand - Article removed from UI and Database!
+2021-10-06 16:26:07,801 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 16:26:09,945 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:26:35,062 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 16:26:48,666 [1] INFO KlijentskaAplikacija.WPF.Commands.AddArticleCommand - New article added to UI and Database
+2021-10-06 16:28:55,861 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 16:28:58,160 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:29:02,758 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 16:29:28,531 [1] INFO KlijentskaAplikacija.WPF.Commands.DeleteArticleCommand - Article removed from UI and Database!
+2021-10-06 16:45:07,040 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 16:45:09,305 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:45:47,651 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 16:45:58,127 [1] INFO KlijentskaAplikacija.WPF.Commands.AddArticleCommand - New article added to UI and Database
+2021-10-06 16:46:07,351 [1] INFO KlijentskaAplikacija.WPF.Commands.DeleteArticleCommand - Article removed from UI and Database!
+2021-10-06 16:46:47,624 [1] INFO KlijentskaAplikacija.WPF.App -         =============  Started Logging  =============        
+2021-10-06 16:46:49,864 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:46:54,044 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 16:46:57,543 [1] WARN KlijentskaAplikacija.WPF.Commands.AddArticleCommand - You can not leave a field blank!
+2021-10-06 16:46:58,878 [1] WARN KlijentskaAplikacija.WPF.Commands.DeleteArticleCommand - You need to select item first!
+2021-10-06 16:46:59,469 [1] WARN KlijentskaAplikacija.WPF.Commands.UpdateArticleCommand - You need to select item first!
+2021-10-06 16:47:03,738 [1] INFO KlijentskaAplikacija.WPF.Commands.RefreshDisplayCommand - UI refresed
+2021-10-06 16:47:04,431 [1] INFO KlijentskaAplikacija.WPF.Commands.SearchCommand - Executed search by title
+2021-10-06 16:47:06,355 [1] INFO KlijentskaAplikacija.WPF.Commands.SearchCommand - Unexecuted search by title
+2021-10-06 16:47:09,157 [1] INFO KlijentskaAplikacija.WPF.Commands.SearchCommand - Executed search by title
+2021-10-06 16:47:09,805 [1] INFO KlijentskaAplikacija.WPF.Commands.SearchCommand - Unexecuted search by title
+2021-10-06 16:47:11,066 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:11,570 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:12,474 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:22,188 [1] WARN KlijentskaAplikacija.WPF.Commands.ModifyProfileCommand - You can not leave a field blank!
+2021-10-06 16:47:24,962 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:25,258 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:26,106 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:27,978 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:28,667 [1] INFO KlijentskaAplikacija.WPF.Commands.LogOutCommand - User has logged out!
+2021-10-06 16:47:28,667 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:30,984 [1] INFO KlijentskaAplikacija.WPF.Commands.LoginCommand - User has logged in!
+2021-10-06 16:47:32,986 [1] WARN KlijentskaAplikacija.WPF.Commands.AddArticleCommand - You can not leave a field blank!
+2021-10-06 16:47:33,963 [1] WARN KlijentskaAplikacija.WPF.Commands.DeleteArticleCommand - You need to select item first!
+2021-10-06 16:47:34,371 [1] WARN KlijentskaAplikacija.WPF.Commands.UpdateArticleCommand - You need to select item first!
+2021-10-06 16:47:36,643 [1] INFO KlijentskaAplikacija.WPF.Commands.RefreshDisplayCommand - UI refresed
+2021-10-06 16:47:37,218 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:39,287 [1] WARN KlijentskaAplikacija.WPF.Commands.AddUserCommand - You can not leave a field blank!
+2021-10-06 16:47:40,697 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:42,482 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:42,841 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:43,075 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:44,366 [1] INFO KlijentskaAplikacija.WPF.Commands.ModifyProfileCommand - Profile modifyed!
+2021-10-06 16:47:45,073 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:45,418 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:52,522 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:52,825 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:53,202 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:47:53,474 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:48:02,426 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:48:02,954 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:48:03,490 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:48:04,209 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
+2021-10-06 16:48:09,595 [1] INFO KlijentskaAplikacija.WPF.Commands.LogOutCommand - User has logged out!
+2021-10-06 16:48:09,595 [1] INFO KlijentskaAplikacija.WPF.Commands.UpdateCurrentViewModelCommand - Updated current view model
